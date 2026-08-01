@@ -18,7 +18,9 @@ const renderOptions = {
     dragOptions:{
         cssFilter:".vjs-ai-node-add-button, .vjs-ai-node-add-button *"
     },
-    logicalPorts:true
+    relayoutOnVertexRemove:true,
+    relayoutOnEdgeConnect:true,
+    relayoutOnResize:true  // when a node changes size, run the layout again. we dont switch this on by default but with the hierarchy layout it can be a good idea.
 };
 
 export default renderOptions;
