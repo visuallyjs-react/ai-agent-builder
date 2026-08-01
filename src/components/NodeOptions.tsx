@@ -17,11 +17,11 @@ export default function NodeOptions({ vertex, model }: NodeOptionsProps) {
         if (isTrigger) {
             setTrigger(vertex as any, model, item);
         } else {
-            model.setType(vertex, item.id);
-            model.updateNode(vertex, {
+           model.updateNode(vertex, {
                 provider: item.provider,
                 name: item.name,
-                summary: item.desc
+                summary: item.desc,
+                type:item.id
             });
         }
     };
