@@ -57,13 +57,11 @@ export default function ButtonBar() {
     };
 
     const newWorkflow = () => {
-        surface.model.transaction(() => {
-            surface.model.clear();
-            surface.model.addNode({
-                type: "trigger",
-                name: "New Trigger",
-                summary: "Configure this trigger"
-            });
+        surface.model.clear();
+        surface.model.addNode({
+            type: "trigger",
+            name: "New Trigger",
+            summary: "Configure this trigger"
         });
         surface.zoomToFit();
     };
