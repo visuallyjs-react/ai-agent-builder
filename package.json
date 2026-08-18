@@ -1,7 +1,7 @@
 {
   "name": "visuallyjs-react-ai-agent-builder",
   "private": true,
-  "version": "1.2.3",
+  "version": "1.2.4",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@visuallyjs/browser-ui-react": "^1.2.3",
+    "@visuallyjs/browser-ui-react": "^1.2.4",
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
   },
